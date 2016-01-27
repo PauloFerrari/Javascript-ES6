@@ -1,2 +1,2 @@
-$('nav').load('/Shared/menu-navbar', function () {
+$('nav').load('/Shared/menu-navbar.html', function () {
 });
