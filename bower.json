@@ -1,0 +1,25 @@
+{
+  "name": "Javascript_es6",
+  "authors": [
+    "Paulo Ferrari"
+  ],
+  "description": "Test",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur": "~0.0.95",
+    "jasmine-core": "jasmine#~2.4.1",
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.0"
+  }
+}

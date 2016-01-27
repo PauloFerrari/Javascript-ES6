@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index Title</title>
+    <link rel="stylesheet" type="text/css" href="/vendor/jasmine-core/lib/jasmine-core/jasmine.css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
+</head>
+
+<section>
+    <nav class="navbar navbar-default navbar-fixed-top">
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Register User</div>
+                <div class="form-horizontal">
+                    <!--Name -->
+                    <div class="form-group">
+                        <label class="name required col-sm-3 control-label" for="name">
+                            <abbr title="required">*</abbr> Name
+                        </label>
+                        <div class="col-sm-9">
+                            <input class="string name required form-control" name="name" placeholder="Name" type="text">
+                        </div>
+                    </div>
+                    <!--Email -->
+                    <div class="form-group">
+                        <label class="email required col-sm-3 control-label" for="email">
+                            <abbr title="required">*</abbr> Email
+                        </label>
+                        <div class="col-sm-9">
+                            <input class="string email required form-control" name="email" placeholder="Email" type="email">
+                        </div>
+                    </div>
+                    <!--Password -->
+                    <div class="form-group">
+                        <label class="password required col-sm-3 control-label" for="password">
+                            <abbr title="required">*</abbr> Password
+                        </label>
+                        <div class="col-sm-9">
+                            <input class="string password required form-control" name="password" placeholder="Password" type="password">
+                        </div>
+                    </div>
+                    <!--Confirm Password -->
+                    <div class="form-group">
+                        <label class="confirmPassword required col-sm-3 control-label" for="confirmPassword">
+                            <abbr title="required">*</abbr> Confirm Password
+                        </label>
+                        <div class="col-sm-9">
+                            <input class="string confirmPassword required form-control" name="confirmPassword" placeholder="Confirm Password" type="password">
+                        </div>
+                    </div>
+                    <div class="button-send">
+                        <button class="btn btn-primary dropdown-toggle">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/vendor/traceur/traceur.js"></script>
+<script src="/vendor/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+<script src="/vendor/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+<script src="/vendor/jasmine-core/lib/jasmine-core/boot.js"></script>
+<script src="/vendor/jquery/dist/jquery.min.js"></script>
+<script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/js/LoadLayout.js"></script>
+<script src="/js/ES5/RegisterUser_ES6.js"></script>
+
+</html>
